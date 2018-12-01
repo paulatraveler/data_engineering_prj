@@ -66,12 +66,10 @@ class TestCalculate:
         output = calculate(df)
         assert output == expected_output
 
-    def test_bigger_dataset(self):
+    def test_calculate_for_bigger_dataset_has_the_correct_number_of_rows(self):
         data = pd.read_csv(
-            'data.csv',
+            'tests/data.csv',
             header=None,
             names=["bone", "muscle", "number"])
         output = calculate(data)
-        print(output)
         assert len(output) == 10000
-
