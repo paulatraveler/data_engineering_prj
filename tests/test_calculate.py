@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from vente_privee.calculate import calculate
+from data_engineering_prj.calculate import calculate
 
 
 class TestCalculate:

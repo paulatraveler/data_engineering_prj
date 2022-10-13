@@ -1,6 +1,6 @@
 import pytest
 import io
-from vente_privee.app import app
+from data_engineering_prj.app import app
 
 
 @pytest.fixture
